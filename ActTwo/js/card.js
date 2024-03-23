@@ -12,7 +12,7 @@ const cards = (a,b,c,d,e,f,g,h,i,j) => {
                             <p>${f}</p>
                             <button>${g}</button>
                         </div>
-                        <div class="p1">
+                        <div class="img1">
                             <img src="./img/${h}">
                             <p>${i}</p>
                             <button>${j}</button>

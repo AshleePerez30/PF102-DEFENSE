@@ -3,7 +3,10 @@
     margin: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-    background-color: aliceblue;
+}
+
+body{
+    background: linear-gradient(to right, rgb(50, 216, 211), rgb(210, 70, 138));
 }
 
 .header{
@@ -24,6 +27,13 @@ a, li{
     list-style: none;
     background-color: darkslategray;
     color: azure;
+    border-bottom: 2px solid azure;
+    padding-bottom: 3px;
+}
+
+a:hover{
+    color:aquamarine;
+    border-bottom: 3px solid aquamarine;
 }
 
 .sectionOne{
@@ -33,16 +43,13 @@ a, li{
     height: 100vh;
     gap: 100px;
 }
-.myImg {
-width: 450PX;
-border-radius: 50%;
-border: 5px solid cornflowerblue;
-border-style: outset;
-}
 
-.sectionOne img{
+.sectionOne img{    
     border-radius: 50%;
     border: 10px solid darkslategray;
+    box-shadow: 5px 5px 20px 20px slategray;
+    width: 400px;
+    background: linear-gradient(to right, rgb(217, 217, 68), rgb(14, 216, 98));
 }
 
 .info {
@@ -110,8 +117,9 @@ border-style: outset;
 }
 
 button {
-    transition: all .8s ease ;
+    transition: all .8s ease;
     border-radius: 10px;
+    box-shadow: 3px 3px black;
 }
 
 .sectionTwo img{

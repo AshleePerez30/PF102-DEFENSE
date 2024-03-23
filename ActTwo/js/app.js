@@ -6,7 +6,7 @@ const myObj1 = {
     title : "My portfolio",
     disc : "Hi! My name is Ashlee Jaucian J. Perez, 19 years old, from purok 6, Brgy.25, Gingoog City. I am currently a 2nd year BSIT Student from GCCi.",
     btn : "About me",
-    myimg : "myImg.png"
+    myimg : "pfp.png"
 }
 
 const myObj2 = {

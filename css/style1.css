@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    margin-top: 1rem;
 }
 
 img{
@@ -21,8 +20,6 @@ img{
     background-color: darkslategray; 
     font-weight: bold;
     font-size: 1.5rem;
-    margin-left: 336px;
-    margin-right: 336px;
     font-family: sans-serif;
 }
 
@@ -31,29 +28,42 @@ a, li{
     list-style: none;
     background-color: darkslategray;
     color: azure;
+    border-bottom: 2px solid azure;
+    padding-bottom: 3px;
+}
+
+a:hover{
+    color:aquamarine;
+    border-bottom: 3px solid aquamarine;
+}
+
+body{
+    background: linear-gradient(to right, rgb(25, 80, 161), rgb(48, 158, 90));
 }
 
 .container{
-    padding-bottom: 2rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
     max-width: 1200px;
     max-height: 1000px;
     margin: 0 auto;
+    margin-top: 70px;
     display: flex;
-    background: linear-gradient(to right, rgb(25, 80, 161), rgb(48, 158, 90));
+    border-radius: 40px;
+    box-shadow: 5px 5px 30px 30px darkslategray;
 }
 
 .classLeft{
     width: 50%;
     padding: 1rem;
-    margin-top: 150px;
+    margin-top: 40px;
 }
 
 .classRight{
     width: 50%;
     padding: 1rem;
-    margin-top: 150px;
+    margin-top: 40px;
 }
 
 h1{
