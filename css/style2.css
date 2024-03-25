@@ -5,46 +5,47 @@
     font-family: sans-serif;
 }
 
-body{
+body {
     background: linear-gradient(to right, rgb(50, 216, 211), rgb(210, 70, 138));
 }
 
-.header{
+.header {
     display: flex;
     justify-content: center;
     padding-left: 1rem;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     gap: 30px;
-    background-color: darkslategray; 
+    background-color: darkslategray;
     font-weight: bold;
     font-size: 1.5rem;
     font-family: sans-serif;
 }
 
-a, li{
+a,
+li {
     text-decoration: none;
     list-style: none;
     background-color: darkslategray;
     color: azure;
-    border-bottom: 2px solid azure;
     padding-bottom: 3px;
 }
 
-a:hover{
-    color:aquamarine;
-    border-bottom: 3px solid aquamarine;
+a:hover {
+    color: aquamarine;
+    margin-bottom: 50px;
+    font-size: 50px;
 }
 
-.sectionOne{
+.sectionOne {
     display: flex;
-    justify-content: center ;
+    justify-content: center;
     align-items: center;
     height: 100vh;
     gap: 100px;
 }
 
-.sectionOne img{    
+.sectionOne img {
     border-radius: 50%;
     border: 10px solid darkslategray;
     box-shadow: 5px 5px 20px 20px slategray;
@@ -66,22 +67,22 @@ a:hover{
 }
 
 .info p {
-    font-size: 20px;
+    font-size: 1.5rem;
 }
 
-.info button{
+.info button {
     padding: 7px;
     border-radius: 10px;
-    background-color:darkcyan ;  
-    color:azure ;
+    background-color: darkcyan;
+    color: azure;
     font-size: 1.2rem;
 }
 
 .sectionTwo {
-    height: 100hv;
+    height: 75vh;
 }
 
-.sectionTwo h1{
+.sectionTwo h1 {
     text-align: center;
     margin-bottom: 20px;
 }
@@ -94,10 +95,10 @@ a:hover{
 }
 
 .container button {
-    padding: 7px;
-    background-color:darkcyan ;  
-    color:azure ;
-    font-size: 1rem;
+    padding: 10px;
+    background-color: darkcyan;
+    color: azure;
+    font-size: 1.2rem;
 }
 
 .container {
@@ -110,8 +111,8 @@ a:hover{
     border: 5px solid darkslategray;
 }
 
-.p1{
-    padding: 10px ;
+.p1 {
+    padding: 10px;
     border-radius: 20px;
     margin-bottom: 30px;
 }
@@ -122,13 +123,63 @@ button {
     box-shadow: 3px 3px black;
 }
 
-.sectionTwo img{
+.sectionTwo img {
     width: 385px;
     height: 300px;
 }
 
-.sectionTwo h1{
-    color:darkslategray;
+.sectionTwo h1 {
+    color: darkslategray;
     font-size: 3rem;
     padding-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    a:hover{
+        font-size: 2rem;
+    }
+
+    .sectionOne {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .sectionOne img {
+        width: 80%;
+    }
+
+    .sectionOne p{
+        font-size: 1.5rem;
+    }
+
+    .info,
+    .container p {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sectionTwo img {
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    .sectionTwo button{
+        margin-left: 42%;
+        margin-top: 10px;
+    }
+
+    .sectionTwo p{
+        margin-left: 10%;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .sectionTwo{
+        margin-bottom: 50px;
+    }
 }
