@@ -1,52 +1,52 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-img{
+img {
     width: 100%;
     height: 100%;
     border-radius: 20px;
 }
 
-.header{
+.header {
     display: flex;
     justify-content: center;
     padding-left: 1rem;
     padding-top: 1.5rem;
     padding-bottom: 2rem;
     gap: 30px;
-    background-color: darkslategray; 
+    background-color: darkslategray;
     font-weight: bold;
     font-size: 1.5rem;
     font-family: sans-serif;
 }
 
-a, li{
+a,
+li {
     text-decoration: none;
     list-style: none;
     background-color: darkslategray;
     color: azure;
-    border-bottom: 2px solid azure;
     padding-bottom: 3px;
 }
 
-a:hover{
-    color:aquamarine;
-    border-bottom: 3px solid aquamarine;
+a:hover {
+    color: aquamarine;
+    margin-bottom: 50px;
+    font-size: 50px;
 }
 
-body{
+body {
     background: linear-gradient(to right, rgb(25, 80, 161), rgb(48, 158, 90));
 }
 
-.container{
+.container {
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 40px;
     max-width: 1200px;
-    max-height: 1000px;
     margin: 0 auto;
     margin-top: 70px;
     display: flex;
@@ -54,19 +54,19 @@ body{
     box-shadow: 5px 5px 30px 30px darkslategray;
 }
 
-.classLeft{
+.classLeft {
     width: 50%;
     padding: 1rem;
     margin-top: 40px;
 }
 
-.classRight{
+.classRight {
     width: 50%;
     padding: 1rem;
     margin-top: 40px;
 }
 
-h1{
+h1 {
     font-family: sans-serif;
     margin-block-end: 1rem;
     background-color: red;
@@ -74,21 +74,21 @@ h1{
     background-size: 100%;
     background-repeat: repeat;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
+    -webkit-text-fill-color: transparent;
     -moz-background-clip: text;
-    -moz-text-fill-color: transparent;    
+    -moz-text-fill-color: transparent;
 }
 
-p{
-    font-size: 1rem;
+p {
+    font-size: 1.25rem;
     font-family: sans-serif;
     margin-block-end: 1rem;
-    color:chocolate;
+    color: lemonchiffon;
 }
 
-button{
-    color:black;
-    background-color: pink;
+button {
+    color: black;
+    background-color: rgb(201, 171, 91);
     font-size: 15px;
     font-weight: bold;
     font-family: sans-serif;
@@ -98,7 +98,25 @@ button{
     padding: 10px;
 }
 
-button:hover{
-    color:aliceblue ;
-    background-color: pink ;
+button:hover {
+    color: azure;
+    background-color: rgb(201, 171, 91);
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        border-radius: 20;
+        max-width: 75%;
+        margin-bottom: 50px;
+    }
+
+    a:hover{
+        font-size: 2rem;
+    }
+
+    .classLeft,
+    .classRight {
+        width: 100%;
+    }
 }
