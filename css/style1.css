@@ -104,11 +104,11 @@ button:hover {
 }
 
 @media (max-width: 768px) {
-    .container {
-        flex-direction: column;
-        border-radius: 20;
-        max-width: 75%;
-        margin-bottom: 50px;
+    .header {
+        flex-direction: row;
+        gap: 30px;
+        padding: 30px;
+        font-size: 1.25rem;
     }
 
     a:hover{

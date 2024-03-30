@@ -78,10 +78,16 @@ p {
 }
 
 @media (max-width: 768px) {
-    a:hover{
-        font-size: 2rem;
+    .header {
+        flex-direction: row;
+        gap: 30px;
+        padding: 30px;
+        font-size: 1.25rem;
     }
 
+    a:hover{
+        font-size: 2rem;
+    } 
     .container {
         flex-direction: column;
         align-items: center; 
@@ -92,5 +98,9 @@ p {
         margin-bottom: 20px;
         height: 250px;
         width: 250px;
+    }
+    img{
+        width: 500px;
+        height: 250px;
     }
 }

@@ -135,7 +135,16 @@ button {
 }
 
 @media (max-width: 768px) {
+    .header {
+        flex-direction: row;
+        gap: 30px;
+        padding: 30px;
+        font-size: 1.25rem;
+    }
+
     a:hover{
+        font-size: 2rem;
+    }:hover{
         font-size: 2rem;
     }
 
