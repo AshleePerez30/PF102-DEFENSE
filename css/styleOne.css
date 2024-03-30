@@ -6,6 +6,7 @@
 
 body {
     background: linear-gradient(to right, rgb(222, 224, 113), rgb(84, 222, 135));
+    height: 140vh;
 }
 
 h1 {
@@ -50,20 +51,35 @@ a:hover {
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
-    padding: 0 20px; /* Adjusted padding for responsiveness */
+    padding: 0 20px; 
     justify-content: center;
     margin-bottom: 100px;
-    max-width: 1200px; /* Limiting container width */
-    margin-left: auto; /* Centering container horizontally */
-    margin-right: auto; /* Centering container horizontally */
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+img{
+    height: 225px;
+    width: 225px;
+    padding-top: 10px;
+    border-radius: 20px;
+}
+
+img:hover{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    z-index: 1; 
+    transform: scale(1.5); 
+}   
 
 .box {
     text-align: center;
-    height: 250px;
-    width: 250px;
+    height: 300px;
+    width: 300px;
     border: 2px solid cyan;
-    border-radius: 10px;
+    border-radius: 50px;
     justify-content: space-evenly;
     padding: 1rem;
     background-color: cornflowerblue;
@@ -72,10 +88,10 @@ a:hover {
 p {
     background-color: cornflowerblue;
     font-family: sans-serif;
-    font-size: 2rem;
-    padding-top: 75px;
+    font-size: 1.5rem;
     color: cyan;
 }
+
 
 @media (max-width: 768px) {
     .header {
@@ -88,6 +104,21 @@ p {
     a:hover{
         font-size: 1.5rem;
     } 
+
+    img{
+        height: 150px;
+        width: 150px;
+    }
+
+    img:hover{
+        height: 300px;
+        width: 300px;
+        transform: scale(1) translate(-50%, -50%);
+        left: 50%;
+        position: relative;
+        top: 50%;
+    }   
+
     .container {
         flex-direction: column;
         align-items: center; 
@@ -99,8 +130,5 @@ p {
         height: 250px;
         width: 250px;
     }
-    img{
-        width: 500px;
-        height: 250px;
-    }
+
 }
