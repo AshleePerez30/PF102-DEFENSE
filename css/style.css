@@ -144,11 +144,11 @@ img {
         flex-direction: row;
         gap: 30px;
         padding: 30px;
-        font-size: 1.25rem;
+        font-size: 1rem;
     }
 
     a:hover{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .text-animation{
@@ -165,23 +165,23 @@ img {
     }
 
     .greet{
-        font-size: 1.75rem;
+        font-size: 1.5rem;
     }
 
     .name{
-        font-size: 1.84rem;
+        font-size: 1.5rem;
     }
 
     .body {
-        margin: 20px;
+        margin: 25px;
     }
 
     .learn{
-        font-size: 1.75rem;
+        font-size: 1.5rem;
     }
 
     .flex {
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 
     .right,

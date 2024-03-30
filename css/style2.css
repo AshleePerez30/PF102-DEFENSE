@@ -118,7 +118,6 @@ a:hover {
 }
 
 button {
-    transition: all .8s ease;
     border-radius: 10px;
     box-shadow: 3px 3px black;
 }
@@ -139,22 +138,21 @@ button {
         flex-direction: row;
         gap: 30px;
         padding: 30px;
-        font-size: 1.25rem;
+        font-size: 1rem;
     }
 
     a:hover{
-        font-size: 2rem;
-    }:hover{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .sectionOne {
+        margin-top: 20px;
         flex-direction: column;
         text-align: center;
     }
 
     .sectionOne img {
-        width: 80%;
+        width: 75%;
     }
 
     .sectionOne p{
@@ -178,7 +176,7 @@ button {
     }
 
     .sectionTwo button{
-        margin-left: 42%;
+        margin-left: 37%;
         margin-top: 10px;
     }
 
