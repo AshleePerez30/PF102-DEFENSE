@@ -71,7 +71,8 @@ img:hover{
     width: 300px;
     position: relative;
     z-index: 1; 
-    transform: scale(1.5); 
+    transform: scale(1.5);
+    transition: all 0.30s;
 }   
 
 .box {
